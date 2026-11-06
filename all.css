@@ -1,3 +1,19 @@
-main{
-    background-color: aliceblue;
+body {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: bisque;
+}
+legend {
+    color:black;
+    font: 30px px Arial
+
+}
+table.heading {
+    font: 5px Arial bold;
+}
+table.data {
+    font:2px Arial
+}
+body.task-form{
+    font: 50px Arial;
 }
