@@ -14,3 +14,5 @@ function submitHandler(event){
     td1.innerText=counter;
     td2.innerText=taskDesc.value;
 }
+
+taskDesc.addEventListener("submit",submitHandler);
