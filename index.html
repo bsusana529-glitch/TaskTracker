@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Task Tracker</title>
     </head>
+
     <body>
-        <main>
-            
-        </main>
+        <form id="task-form">
+
+            <fieldset>
+                <legend>My Task Tracker</legend>
+
+                <label for="task-desc">Task:</label>
+
+                <input type="text" id="task-desc">
+
+                <button type="submit">+</button>
+
+                <button type="button">-</button>
+            </fieldset>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task #</th>
+                    <th>Task Desc.</th>
+                </tr>
+            </thead>
+
+            <tbody= id="table-body">
+
+            </tbody>
+        </table>
+
     </body>
 </html>
